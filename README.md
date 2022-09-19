@@ -5,4 +5,4 @@ Basta eseguire la funzione check() nel primo file main.py inserendo come argomen
 nella sezione avvisi del Sant'Anna cosicché il Bot possa capire se un articolo nuovo è stato pubblicato ed, infine, la durata di tempo che il bot deve aspettare
 prima di cercare nuovamente un aggiornamento.
 
-Affinché il Bot di Telegram funzionibisogna creare un file var.py dove vengono dichiarate le variabili richieste.
+Affinché il Bot di Telegram funzioni bisogna creare un file var.py dove vengono dichiarate le variabili richieste.
