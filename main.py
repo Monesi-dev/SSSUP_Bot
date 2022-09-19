@@ -59,19 +59,6 @@ def check(keywords, number, delay):
 		check(keywords, number, delay)
 
 
-def check_articles():
-
-	html_text = requests.get(url).text
-	soup = BeautifulSoup(html_text, 'lxml')
-	articles = soup.find_all('p')
-
-	for article in articles:
-		text = str(article)
-		if "Ingegneria" in text:
-			msg = article.text
-			link = article.find('a')['href']
-			Bot.send_message(msg)
-			Bot.send_message(link)
 
 
 
